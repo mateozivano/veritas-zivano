@@ -1,0 +1,126 @@
+h1{
+    font-style: oblique; font-size: 100px; color: darkslategrey; text-align:center;
+    
+    }
+    h2{
+        font-style: normal; color: rgb(140, 172, 214);
+    }
+    .animate__animated.animate__rubberBand {
+        --animate-duration: 2s;
+        --animate-delay: 0.9s;
+      }
+
+.colorcito{
+    font-size: 23px;
+    text-align: center;
+    transform: translate(0,20px)
+}
+.imagenes{
+    height:170px ;
+    width: 256px;
+}
+.cosas{
+    font-style: italic;
+}
+.logo{
+    display:block;
+    margin:auto;
+    border-style: dotted;
+    }
+.em{
+    text-align: end;
+}
+ 
+.juntito{
+        border-style:double ;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 700px;
+        height: auto;
+        display:inline-block;
+        
+    }
+
+li{
+
+list-style-type: square;
+}
+.nav{
+    background-color: antiquewhite;
+}
+.vivo{
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style-type:none ;
+}
+.fondo{
+    background: rgb(105,105,105);
+background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15%, rgba(255,254,254,1) 19%, rgba(255,255,255,1) 82%, rgba(161,161,161,1) 88%, rgba(88,88,88,1) 100%);
+}
+.cuadritos{
+    display:inline ;
+}
+.tuki{
+    width: 250px;
+}
+.noti1{
+    
+    border-style: groove;
+}
+.noti2{
+    
+    border-style: groove;
+}
+.noti3{
+    
+    border-style: groove;
+}
+
+.header{
+    
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    text-align: start;
+}
+.col-md-3{
+    background-color: white;
+}
+.col-md-6{
+    background-color: white;
+}
+.col-md-12{
+    background-color:whitesmoke;
+
+}
+@media screen and (max-width: 950px){
+    .fondo{
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 8%, rgba(218,218,218,1) 19%, rgba(158,158,158,1) 42%, rgba(145,145,145,1) 60%, rgba(88,88,88,1) 100%);
+     
+    }
+    .noti1{
+        
+        border-style: groove;
+    }
+    .noti2{
+        
+        border-style: groove;
+    }
+    .noti3{
+       
+        border-style: groove;
+    }
+    .header{
+       
+        display: flex;
+        flex-direction:column;
+    }
+    .colorcito{
+         display: none;
+    }
+    
+}
